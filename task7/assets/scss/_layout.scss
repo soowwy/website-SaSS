@@ -1,0 +1,36 @@
+
+#layout {
+  width: 99.99%;
+  background-color: crimson;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  ul {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 0.5em;
+    li {
+      display: inline-block;
+
+    }
+
+    li a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      margin: 35px 20px 35px 60px;
+      padding: 14px 12px;
+      text-align: center;
+
+    }
+    li a:hover {
+      display: inline-block;
+      color: black;
+      background-color: white;
+      border-radius: 20px;
+    }
+  }
+
+}
